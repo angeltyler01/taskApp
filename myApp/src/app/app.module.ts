@@ -6,16 +6,19 @@ import { AppComponent } from './app.component';
 import { TaskViewComponent } from './pages/task-view/task-view.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
+import { RouterTestingModule } from '@angular/router/testing';
 
 @NgModule({
   declarations: [
     AppComponent,
     TaskViewComponent,
-    HttpClientModule
+    HttpClientModule,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
