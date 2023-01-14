@@ -4,7 +4,7 @@ import { TaskService } from 'src/app/task.service'
 @Component({
   selector: 'app-task-view',
   templateUrl: './task-view.component.html',
-  styleUrls: ['./task-view.component.css']
+  styleUrls: ['./task-view.component.scss']
 })
 export class TaskViewComponent {
 
