@@ -16,5 +16,3 @@ export class NewListComponent implements OnInit {
   }
 
 }
-
-
