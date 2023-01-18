@@ -12,4 +12,9 @@ export class TaskService {
     //web request to make a new list
       return this.webReqService.post('list', {title});
   }
+
+ getLists() {
+   return this.webReqService.get('lists');
+ }
+
 }

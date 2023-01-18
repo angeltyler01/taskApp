@@ -9,6 +9,8 @@ import { ActivatedRoute, Params} from '@angular/router'
 })
 export class TaskViewComponent  implements OnInit {
 
+  lists: any;
+
   constructor(private taskService: TaskService, private route: ActivatedRoute){}
 
  
@@ -18,6 +20,8 @@ export class TaskViewComponent  implements OnInit {
         console.log(params);
       }
     )
+
+   
   }
 
 }
